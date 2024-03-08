@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Company - Product Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        .ul li{
+            display: inline;
+            font-size: 25px;
+            padding-right: 75px;
+            color: #ffff;
+        }
+        a{
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .product {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .product-image {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .product-image img {
+            width: 100%;
+            max-height: 300px;
+            object-fit: cover;
+        }
+
+        .product-details {
+            flex: 1;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+
+        .price {
+            color: #e44d26;
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #e44d26;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="background: #e40046; height: 150px;">
+        <div style="margin-top: 15px;margin-left: 25; float: left;">
+        <img src="logo/king.png" width="175px">
+        </div>
+        <!-- Creating llogo end png image only-->
+        <!-- Enquiry Deatails starts-->
+        <div style="text-align: right;margin-right: 25px; padding-top: 15px ; font-family: Helvetica; color: #ffff;">
+            <b>91+ 9182545685| badithaveerraju@gmail.com</b>
+            
+        </div>
+        <!-- Enquiry Deatails ends-->
+    <!-- menu Deatails starts-->
+        <div align="center">
+            <ul class="ul" style="padding-top:35px ; font-family: helvetica ;">
+                <a href="web.html"><li><b>Home</b></li></a>
+                <a href="about.html"><li><b>About Us</b></li></a>
+                <a href="services.html"><li><b>Service</b></li></a>
+                <a href="product.html"><li><b>Product</b></li></a>
+                <a href="contect.html"><li><b>Countect Us</b></li></a>
+
+            </ul>
+
+        </div>
+        <!-- menu tag ends-->
+        
+    </div>
+    <header>
+        <h1>Car Company</h1>
+    </header>
+    <!--product deital starts-->
+    <div class="container">
+        <div class="product">
+            <div class="product-image">
+                <!-- car image-->
+                <img src="image/product/platinum.jpeg" alt="Car Image">
+            </div>
+            <div class="product-details">
+                <h2><b>Rolls-Royce Phantom</b></h2>
+                <p>A high-performance and stylish car for your driving pleasure. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Features:</p>
+                <ul>
+                    <li>Powerful Engine</li>
+                    <li>Luxurious Interior</li>
+                    <li>Advanced Safety Features</li>
+                    <li>Smart Technology Integration</li>
+                </ul>
+                <p class="price">Rs.8.99 - 10.48 Cr</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+            <!-- product deitals ends-->
+            
+        </div>
+    </div>
+    <!-- second producte start-->
+    <div class="container">
+        <div class="product">
+             <div class="product-image">
+            <!-- car image-->
+                <img src="image/product/ghost.jpeg" alt="Car Image">
+            </div>
+            <div class="product-details">
+                 <h2><b>Rolls-Royce GhostChange car</b></h2>
+                <p>A high-performance and stylish car for your driving pleasure. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Features:</p>
+                <ul>
+                    <li>Powerful Engine</li>
+                    <li>Luxurious Interior</li>
+                    <li>Advanced Safety Features</li>
+                    <li>Smart Technology Integration</li>
+                </ul>
+                <p class="price">Rs.6.95 - 7.95 Cr*</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
